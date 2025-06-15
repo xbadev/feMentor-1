@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Bader An">
+        <meta name="description" content="Gabrielle Essence Eau De Parfum">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gabrielle Essence Eau De Parfum</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+        <style>
+            * {
+                margin: 0; padding: 0; box-sizing: border-box;
+            }
+
+            body {
+                background-color: #f2eae2;
+                min-height: 100vh;
+                display: flex; align-items: center; justify-content: center;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            .container {
+                display: flex;
+                max-width: 600px; width: 100%;
+                height: fit-content;
+                background-color: white;
+                border-radius: 10px;
+            }
+
+            img {
+                width: 50%; 
+                height: auto;
+                display: block;
+                border-radius: 10px 0 0 10px;  
+            }
+
+            .content-container {
+                width: 50%; 
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                padding: 40px;
+                gap: 20px;
+            }
+
+            #heading {
+                opacity: 0.8;
+                font-size: 0.75rem;
+                color: #6c7289;
+                letter-spacing: 0.3rem;
+            }
+
+            h1 {
+                color: #1c232b;
+                line-height: 2rem;
+                font-family: 'Fraunces', sans-serif;
+            }
+
+            #para {
+                line-height: 1.4rem;
+                font-size: 0.8rem;
+                opacity: 0.8;
+                color: #6c7289;
+            }
+
+            .price-container {
+                display: flex;
+                align-items: center;
+                gap: 20px;            
+            }
+
+            #price {
+                color: #3c8067;
+                font-size: 2rem; font-weight: bold;
+                font-family: 'Fraunces', sans-serif;
+            }
+
+            #old-price {
+                font-size: 0.8rem;
+                color: #6c7289;
+                text-decoration: line-through;
+            }
+
+            button {
+                background-color: #3c8067;
+                border-radius: 10px;
+                padding: 13px;
+                font-size: 0.9rem;
+                border: none;
+                cursor: pointer;
+                color: white;
+                display: flex;
+                align-items: center; justify-content: center;
+            }
+
+            .icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+
+            @media (max-width: 600px) {
+                .container {
+                    flex-direction: column;
+                    margin: 15px;
+                }
+
+                img {
+                    width: 100%; 
+                    aspect-ratio: 4 / 3;
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+                .content-container {
+                    width: 100%;
+                    padding: 30px;
+                }
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+              <img src="image-product-desktop.jpg" alt="Perfume Image">
+                <div class="content-container">
+                  <p id="heading">PERFUME</p>
+                  <h1>Gabrielle Essence Eau De Parfum</h1>
+                  <p id="para">A floral, solar ad voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
+                  <div class="price-container">
+                     <span id="price">$149.99</span>
+                     <span id="old-price">$169.99</span>
+                  </div>
+                  <button><svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" /></svg>Add to Cart</button>
+                </div>
+            </div>
+    </body>
+</html>
